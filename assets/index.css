@@ -20,4 +20,28 @@ main .table {
 main .table .table-row .table-cell {
   width: 25px;
   height: 25px;
+  position: relative;
+}
+main .table .table-row .badge {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 1;
+}
+main .table #c9-9, main .table #c9-10, main .table #c9-11, main .table #c9-12 {
+  border-top: orangered solid 3px;
+}
+main .table #c12-9, main .table #c12-10, main .table #c12-11, main .table #c12-12 {
+  border-bottom: orangered solid 3px;
+}
+main .table #c9-9, main .table #c10-9, main .table #c11-9, main .table #c12-9 {
+  border-left: orangered solid 3px;
+}
+main .table #c9-12, main .table #c10-12, main .table #c11-12, main .table #c12-12 {
+  border-right: orangered solid 3px;
+}
+main .section-info {
+  width: 300px;
 }/*# sourceMappingURL=index.css.map */
